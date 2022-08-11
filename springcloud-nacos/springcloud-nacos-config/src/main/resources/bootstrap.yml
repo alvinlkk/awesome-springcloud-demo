@@ -1,0 +1,8 @@
+spring:
+  application.name: nacos-config-demo
+  cloud.nacos:
+    config:
+      enabled: true
+      server-addr: 10.100.1.14:8848
+      file-extension: yml
+      refresh-enabled: true
